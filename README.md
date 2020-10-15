@@ -1,8 +1,8 @@
-## <a href="https://ilyakozak.github.io/css-templates/portfolio-website/"> Template | Portfolio Website </a>
+## <a href="https://ilyakozak.github.io/css-templates/portfolio-website/dist/"> Template | Portfolio Website </a>
 
 #### <a href="https://github.com/IlyaKozak/css-templates/tree/master/portfolio-website"> github </a>
 
-<a href="https://ilyakozak.github.io/css-templates/portfolio-website/"><img src="portfolio-website.png" width="300"/></a><br />
+<a href="https://ilyakozak.github.io/css-templates/portfolio-website/dist/"><img src="portfolio-website.png" width="300"/></a><br />
 based on https://www.udemy.com/modern-html-css-from-the-beginning/
 
 ---
