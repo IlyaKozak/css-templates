@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Shelter - Pets</title>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="logo-wrapper">
+        <a href="../main/main.html">
+          <div class="logo-inner">
+            <h1 class="title">Cozy House</h1>
+            <h2 class="subtitle">Shelter for pets in Boston</h2>
+          </div>
+        </a>
+        <div class="burger-close"></div>
+      </div>
+      <nav class="menu-nav">
+        <ul class="menu-list">
+          <li>
+            <a href="../main/main.html">About&nbsp;the&nbsp;shelter</a>
+          </li>
+          <li class="not-disabled">
+            <a href="#" class="menu-active" onclick="closeMenu()"
+              >Our&nbsp;pets</a
+            >
+          </li>
+          <li class="disabled">
+            Help&nbsp;the&nbsp;shelter
+          </li>
+          <li class="disabled">
+            Contacts
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="overlay"></div>
+    <div class="header-background" id="top">
+      <div class="header-wrapper">
+        <header>
+          <a href="../main/main.html">
+            <div class="logo">
+              <h1 class="title">Cozy House</h1>
+              <h2 class="subtitle">Shelter for pets in Boston</h2>
+            </div>
+          </a>
+          <nav>
+            <ul>
+              <li><a href="../main/main.html">About the shelter</a></li>
+              <li class="active">
+                <a href="#top" class="active">Our pets</a>
+              </li>
+              <li class="not-active">Help the shelter</li>
+              <li class="not-active">Contacts</li>
+            </ul>
+          </nav>
+          <div class="burger"></div>
+        </header>
+      </div>
+    </div>
+    <main>
+      <section class="pets">
+        <div class="blackout"></div>
+        <div class="popup">
+          <div class="close-btn"></div>
+          <div class="popup-wrapper">
+            <div class="popup-image"></div>
+            <div class="popup-content">
+              <h3 class="name">Jennifer</h3>
+              <h4 class="type"></h4>
+              <h5 class="description"></h5>
+              <ul class="pet-info">
+                <li class="age">
+                  <span><b>Age: </b></span>
+                  <span class="age-info"></span>
+                </li>
+                <li class="inoculations">
+                  <span><b>Inoculations: </b></span>
+                  <span class="inoculations-info"></span>
+                </li>
+                <li class="diseases">
+                  <span><b>Diseases: </b></span>
+                  <span class="diseases-info"></span>
+                </li>
+                <li class="parasites">
+                  <span><b>Parasites: </b></span>
+                  <span class="parasites-info"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h3>Our friends who <br />are looking for a house</h3>
+        <div class="slider">
+          <div class="slider-card pet-1" data-id="4">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Katrine</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+          <div class="slider-card pet-2" data-id="0">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Jennifer</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+          <div class="slider-card pet-3" data-id="2">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Woody</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+          <div class="slider-card pet-4" data-id="1">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Sophia</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+          <div class="slider-card pet-5" data-id="5">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Timmy</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+          <div class="slider-card pet-6" data-id="7">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Charly</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+          <div class="slider-card pet-7" data-id="3">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Scarlett</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+          <div class="slider-card pet-8" data-id="6">
+            <div class="card-inner-wrapper">
+              <div class="card-image"></div>
+              <h4>Freddie</h4>
+              <button class="btn btn-secondary">Learn more</button>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="btn-slider-control btn-first disabled">
+            &lt;&lt;
+          </button>
+          <button class="btn-slider-control btn-left disabled">&lt;</button>
+          <button class="btn-slider-control btn-page" data-page="1">
+            1
+          </button>
+          <button class="btn-slider-control btn-right active">&gt;</button>
+          <button class="btn-slider-control btn-last active">&gt;&gt;</button>
+        </div>
+      </section>
+    </main>
+    <footer id="contacts">
+      <div class="footer-wrapper">
+        <div class="contacts">
+          <h3>For questions and suggestions</h3>
+          <a class="contacts-email" href="mailto:email@shelter.com">
+            <div class="email-icon"></div>
+            <h4 class="email">email@shelter.com</h4>
+          </a>
+          <a class="contacts-phone" href="tel:+136745677554">
+            <div class="phone-icon"></div>
+            <h4 class="phone">+13 674 567 75 54</h4>
+          </a>
+        </div>
+        <div class="location">
+          <h3>We are waiting for your visit</h3>
+          <a
+            class="location-boston"
+            href="https://goo.gl/maps/AmtGcuV7FK4EY6N47"
+            target="_blank"
+          >
+            <div class="boston-icon"></div>
+            <h4 class="boston-address">
+              1 Central Street, Boston (entrance from the store)
+            </h4>
+          </a>
+          <a
+            class="location-london"
+            href="https://goo.gl/maps/8dbDdrTRnTsqWMsH9"
+            target="_blank"
+          >
+            <div class="london-icon"></div>
+            <h4 class="london-address">18 South Park, London</h4>
+          </a>
+        </div>
+        <div class="footer-image"></div>
+      </div>
+    </footer>
+    <script src="pets.js"></script>
+    <script src="pets-page.js"></script>
+  </body>
+</html>
